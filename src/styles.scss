@@ -1,0 +1,166 @@
+ * {
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: #333;
+    margin: 0;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 28px;
+ }
+
+ .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding-bottom: 5rem;
+    padding: 1rem;
+ }
+
+ .characters {
+    border: 3px solid red;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+ }
+
+ .characters__name {
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+ }
+
+ .characters__age,
+ .characters__class,
+ .characters__lore,
+ .characters__race {
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+ }
+
+ .characters__button {
+    border: none;
+    background-color: transparent;
+    font-style: italic;
+    cursor: pointer;
+ }
+
+ .characters-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 2rem;
+    border: 3px solid red;
+    border-radius: 10px;
+ }
+
+ .characters-form {
+    padding: 1rem;
+    max-width: 100%;
+ }
+
+ .characters-form__input {
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-family: 'Playpen Sans', cursive;
+ }
+
+ .characters-form__button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+ }
+
+ .character-image {
+    width: 300;
+    aspect-ratio: 1 / 1;
+ }
+
+ .form__heading {
+    color: aliceblue;
+ }
+
+ .form-group {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    gap: 10px;
+ }
+
+ .label-heading {
+    max-width: 300px;
+ }
+
+ .characters-form__input--class {
+    display: flex;
+    gap: 10px;
+ }
+
+ .characters-form__input--class-radio {
+    display: none;
+ }
+
+ .class-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+ }
+
+ .class-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+
+ .class-name {
+    margin-top: 5px;
+ }
+
+ .class-image {
+    border-radius: 50%;
+ }
+
+ .class-label {
+    position: relative;
+ }
+
+ .characters-form__input--class-radio:checked+.class-label::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+ }
+
+ .class-image__warlock:hover,
+ .class-image__mage:hover,
+ .class-image__hunter:hover,
+ .class-image__priest:hover,
+ .class-image__druid:hover,
+ .class-image__warrior:hover,
+ .class-image__rogue:hover {
+    opacity: 0.5;
+ }
+
+ .timestamp {
+    font-size: 12px;
+    text-align: end;
+ }

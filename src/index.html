@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playpen+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>MD CRUDE Operations</title>
+</head>
+
+<body>
+    <div class="js-wrapper wrapper"></div>
+    <div class="characters-form">
+
+        <form class="js-characters-form characters-form__form">
+            <h3 class="form__heading">Enter information</h3>
+            <div class="form-group">
+                <label for="name" class="label-heading">Characters name:</label>
+                <input type="text" name="name" placeholder="Enter characters name" id="name"
+                    class="characters-form__input" required>
+            </div>
+            <div class="form-group">
+                <label for="race">Choose a race:</label>
+                <select name="race" id="race"
+                    class="characters-form__input--race characters-form__input js-character-select"
+                    placeholder="Select race" required>
+                    <option value="" disabled selected>Select your race</option>
+                    <option value="Human">Human</option>
+                    <option value="Dwarf">Dwarf</option>
+                    <option value="NightElf">NightElf</option>
+                    <option value="Gnome">Gnome</option>
+                    <option value="Draenei">Draenei</option>
+                    <option value="Worgen">Worgen</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Enter your age:</label>
+                <input type="number" name="age" id="age" placeholder="Enter age"
+                    class="characters-form__input--age characters-form__input" required>
+            </div>
+            <div class="form-group">
+                <p>Select your class:</p>
+                <div class="characters-form__input--class">
+
+                    <input type="radio" id="warlock" name="class" value="warlock"
+                        class="characters-form__input--class-radio">
+                    <label for="warlock" class="class-label">
+                        <img src="assets/images/warlock.png" alt="warlock" class="class-image class-image__warlock"
+                            title="Warlock">
+                        <span class="class-name"></span>
+                    </label>
+
+                    <input type="radio" id="mage" name="class" value="mage" class="characters-form__input--class-radio">
+                    <label for="mage" class="class-label">
+                        <img src="assets/images/mage.png" alt="mage" class="class-image class-image__mage" title="Mage">
+                        <span class="class-name__mage"></span>
+                    </label>
+
+                    <input type="radio" id="hunter" name="class" value="hunter"
+                        class="characters-form__input--class-radio">
+                    <label for="hunter" class="class-label">
+                        <img src="assets/images/hunter.png" alt="hunter" class="class-image class-image__hunter"
+                            title="Hunter">
+                        <span class="class-name__hunter"></span>
+                    </label>
+
+                    <input type="radio" id="druid" name="class" value="druid"
+                        class="characters-form__input--class-radio">
+                    <label for="druid" class="class-label">
+                        <img src="assets/images/druid.png" alt="druid" class="class-image class-image__druid"
+                            title="Druid">
+                        <span class="class-name__druid"></span>
+                    </label>
+
+                    <input type="radio" id="priest" name="class" value="priest"
+                        class="characters-form__input--class-radio">
+                    <label for="priest" class="class-label">
+                        <img src="assets/images/priest.png" alt="priest" class="class-image class-image__priest"
+                            title="Priest">
+                        <span class="class-name__priest"></span>
+                    </label>
+
+                    <input type="radio" id="rogue" name="class" value="rogue"
+                        class="characters-form__input--class-radio">
+                    <label for="rogue" class="class-label">
+                        <img src="assets/images/rogue.png" alt="rogue" class="class-image class-image__rogue"
+                            title="Rogue">
+                        <span class="class-name__rogue"></span>
+                    </label>
+
+                    <input type="radio" id="warrior" name="class" value="warrior"
+                        class="characters-form__input--class-radio">
+                    <label for="warrior" class="class-label">
+                        <img src="assets/images/warrior.png" alt="warrior" class="class-image class-image__warrior"
+                            title="Warrior">
+                        <span class="class-name__warrior"></span>
+                    </label>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="characters">Add your lore:</label>
+                <input type="text" name="lore" placeholder="Add lore about character"
+                    class="characters-form__input--lore characters-form__input" required>
+            </div>
+            <button class="characters-form__button">Add</button>
+        </form>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/scripts.js"></script>
+</body>
+
+</html>

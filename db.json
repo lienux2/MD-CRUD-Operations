@@ -1,0 +1,49 @@
+{
+  "characters": [
+    {
+      "name": "Kael Ironheart",
+      "race": "Human",
+      "age": 28,
+      "class": "warrior",
+      "lore": "a battle-worn warrior, wields a blade forged in the heart of adversity, his eyes reflecting the shadows of countless victories and the weight of unspoken burdens.",
+      "timestamp": 1700580639437,
+      "id": 1
+    },
+    {
+      "name": "Sylara Blossom",
+      "race": "Draenei",
+      "age": "214",
+      "class": "Druid",
+      "lore": "A Wise Draenei Druid, Channels Nature's Harmony, Her Roots Intertwined With The Ages, Protecting Azeroth With The Tranquility Of Moonlit Groves.",
+      "timestamp": "2023-11-21T15:32:09.221Z",
+      "id": 2
+    },
+    {
+      "name": "Elara Shimmer",
+      "race": "NightElf",
+      "age": 342,
+      "class": "mage",
+      "lore": "a night elf mage, weaves arcane constellations, her timeless gaze holding the secrets of ancient spells, a guardian of arcane wisdom in moonlit realms.",
+      "timestamp": 1700580846644,
+      "id": 4
+    },
+    {
+      "name": "Brynn Stonecloak",
+      "race": "Dwarf",
+      "age": 124,
+      "class": "rogue",
+      "lore": "a dwarf rogue, dances in the shadows, her nimble steps echoing ancient heists, a master of stealth with a heart veiled in gem-laden secrets.",
+      "timestamp": 1700580957579,
+      "id": 6
+    },
+    {
+      "name": "Name",
+      "race": "Dwarf",
+      "age": "85",
+      "class": "Warrior",
+      "lore": "Mysterious Past, Benjamin Navigates Life's Twists With A Blend Of Wit And Resilience, Concealing Scars That Tell Tales Only To The Moonlit Night.",
+      "timestamp": "2023-11-21T15:49:06.203Z",
+      "id": 7
+    }
+  ]
+}
